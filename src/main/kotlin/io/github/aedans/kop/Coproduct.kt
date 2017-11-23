@@ -4,7 +4,6 @@ import kategory.*
 
 /**
  * Class representing the Coproduct type
- *
  * Coproduct a b = Left a | Right b
  */
 @higherkind
