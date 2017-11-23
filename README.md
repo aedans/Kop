@@ -1,4 +1,4 @@
-KOP
+Kop
 ===
 
 [![Download](https://api.bintray.com/packages/aedans/maven/kop/images/download.svg)](https://bintray.com/aedans/maven/kop/_latestVersion)
@@ -28,8 +28,12 @@ Features
 - Coproduct.value up to 26
 - [Kategory](https://github.com/kategory/kategory) support
 
-Increasing Auto-gen Amount
---------------------------
+Automatic Code Generation
+-------------------------
+
+The code generator is located [here](https://github.com/aedans/kop/blob/master/buildSrc/src/main/kotlin/Codegen.kt). 
+Note that adding, when adding a new generator method, you must also call 
+it from the build.gradle:codegen.
 
 To increase the number of auto-generated utilities, there is a variable 
 called num in build.gradle. However, you will have to build and
