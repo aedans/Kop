@@ -33,7 +33,7 @@ Automatic Code Generation
 
 The code generator is located [here](https://github.com/aedans/kop/blob/master/buildSrc/src/main/kotlin/Codegen.kt). 
 Note that adding, when adding a new generator method, you must also call 
-it from the build.gradle:codegen.
+it from build.gradle:codegen.
 
 To increase the number of auto-generated utilities, there is a variable 
 called num in build.gradle. However, you will have to build and
