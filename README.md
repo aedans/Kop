@@ -26,7 +26,7 @@ Features
 - Coproduct.fold up to 26
 - Coproduct.map up to 26
 - Coproduct.value up to 26
-- [Kategory](https://github.com/kategory/kategory) support
+- [Kategory](https://github.com/kategory/kategory) interop
 
 Automatic Code Generation
 -------------------------
