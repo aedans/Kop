@@ -2,6 +2,11 @@ package io.github.aedans.kop
 
 import kategory.*
 
+/**
+ * Class representing the Coproduct type
+ *
+ * Coproduct a b = Left a | Right b
+ */
 @higherkind
 sealed class Coproduct<out A, out B> : CoproductKind<A, B> {
     data class Left<out A>(val value: A) : Coproduct<A, Nothing>()
