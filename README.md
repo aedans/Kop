@@ -3,7 +3,7 @@ Kop
 
 [![Download](https://api.bintray.com/packages/aedans/maven/kop/images/download.svg)](https://bintray.com/aedans/maven/kop/_latestVersion)
 
-A small coproduct library for Kotlin.
+A small coproduct library for [Kotlin](http://kotlinlang.org).
 
 Gradle
 ------
