@@ -3,7 +3,7 @@ Kop
 
 [![Download](https://api.bintray.com/packages/aedans/maven/kop/images/download.svg)](https://bintray.com/aedans/maven/kop/_latestVersion)
 
-A small coproduct library for Kotlin.
+A small coproduct library for [Kotlin](http://kotlinlang.org).
 
 Gradle
 ------
@@ -32,9 +32,9 @@ Automatic Code Generation
 -------------------------
 
 The code generator is located [here](https://github.com/aedans/kop/blob/master/buildSrc/src/main/kotlin/Codegen.kt). 
-Note that adding, when adding a new generator method, you must also call 
+Note that when adding a new generator method, you must also call 
 it from build.gradle:codegen.
 
 To increase the number of auto-generated utilities, there is a variable 
 called num in build.gradle. However, you will have to build and
-publish to another Maven repository to use the change.
+publish to another Maven repository to use this change.
