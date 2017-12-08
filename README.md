@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-    compile 'io.github.aedans:kop:1.0.0'
+    compile 'io.github.aedans:kop:1.0.1'
 }
 ```
 
